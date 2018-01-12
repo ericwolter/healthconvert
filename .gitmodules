@@ -1,0 +1,3 @@
+[submodule "ZIPFoundation"]
+	path = ZIPFoundation
+	url = https://github.com/weichsel/ZIPFoundation.git
