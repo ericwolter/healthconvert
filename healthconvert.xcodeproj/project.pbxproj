@@ -16,22 +16,6 @@
 		07DE7F5920060B27003ADAF2 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F5820060B27003ADAF2 /* ActionViewController.swift */; };
 		07DE7F5C20060B28003ADAF2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DE7F5A20060B27003ADAF2 /* MainInterface.storyboard */; };
 		07DE7F6020060B28003ADAF2 /* input.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 07DE7F5620060B27003ADAF2 /* input.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		07DE7F8920061765003ADAF2 /* Data+Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F8220061765003ADAF2 /* Data+Compression.swift */; };
-		07DE7F8A20061765003ADAF2 /* Archive+Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F8320061765003ADAF2 /* Archive+Writing.swift */; };
-		07DE7F8B20061765003ADAF2 /* Archive+Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F8420061765003ADAF2 /* Archive+Reading.swift */; };
-		07DE7F8C20061765003ADAF2 /* Data+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F8520061765003ADAF2 /* Data+Serialization.swift */; };
-		07DE7F8D20061765003ADAF2 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F8620061765003ADAF2 /* Entry.swift */; };
-		07DE7F8E20061765003ADAF2 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F8720061765003ADAF2 /* Archive.swift */; };
-		07DE7F8F20061765003ADAF2 /* FileManager+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F8820061765003ADAF2 /* FileManager+ZIP.swift */; };
-		07DE7F9120061E43003ADAF2 /* ZipInputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F9020061E43003ADAF2 /* ZipInputStream.swift */; };
-		07DE7F922006600F003ADAF2 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F8720061765003ADAF2 /* Archive.swift */; };
-		07DE7F932006600F003ADAF2 /* Archive+Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F8420061765003ADAF2 /* Archive+Reading.swift */; };
-		07DE7F942006600F003ADAF2 /* Archive+Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F8320061765003ADAF2 /* Archive+Writing.swift */; };
-		07DE7F952006600F003ADAF2 /* Data+Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F8220061765003ADAF2 /* Data+Compression.swift */; };
-		07DE7F962006600F003ADAF2 /* Data+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F8520061765003ADAF2 /* Data+Serialization.swift */; };
-		07DE7F972006600F003ADAF2 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F8620061765003ADAF2 /* Entry.swift */; };
-		07DE7F982006600F003ADAF2 /* FileManager+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F8820061765003ADAF2 /* FileManager+ZIP.swift */; };
-		07DE7F992006600F003ADAF2 /* ZipInputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F9020061E43003ADAF2 /* ZipInputStream.swift */; };
 		07DE7F9B20066049003ADAF2 /* Export.zip in Resources */ = {isa = PBXBuildFile; fileRef = 07DE7F9A20066049003ADAF2 /* Export.zip */; };
 		07DE7F9D200661F0003ADAF2 /* HKConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F9C200661F0003ADAF2 /* HKConverter.swift */; };
 		07DE7F9E200661F0003ADAF2 /* HKConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE7F9C200661F0003ADAF2 /* HKConverter.swift */; };
@@ -113,14 +97,6 @@
 		07DE7F5D20060B28003ADAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07DE7F66200614D9003ADAF2 /* ZIPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZIPFoundation.framework; path = Carthage/Build/iOS/ZIPFoundation.framework; sourceTree = "<group>"; };
 		07DE7F6A200616D5003ADAF2 /* ZIPFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZIPFoundation.xcodeproj; path = Carthage/Checkouts/ZIPFoundation/ZIPFoundation.xcodeproj; sourceTree = "<group>"; };
-		07DE7F8220061765003ADAF2 /* Data+Compression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Compression.swift"; sourceTree = "<group>"; };
-		07DE7F8320061765003ADAF2 /* Archive+Writing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Archive+Writing.swift"; sourceTree = "<group>"; };
-		07DE7F8420061765003ADAF2 /* Archive+Reading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Archive+Reading.swift"; sourceTree = "<group>"; };
-		07DE7F8520061765003ADAF2 /* Data+Serialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Serialization.swift"; sourceTree = "<group>"; };
-		07DE7F8620061765003ADAF2 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
-		07DE7F8720061765003ADAF2 /* Archive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
-		07DE7F8820061765003ADAF2 /* FileManager+ZIP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+ZIP.swift"; sourceTree = "<group>"; };
-		07DE7F9020061E43003ADAF2 /* ZipInputStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipInputStream.swift; sourceTree = "<group>"; };
 		07DE7F9A20066049003ADAF2 /* Export.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Export.zip; sourceTree = "<group>"; };
 		07DE7F9C200661F0003ADAF2 /* HKConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKConverter.swift; sourceTree = "<group>"; };
 		07DE7FA220089C4E003ADAF2 /* HKRecordReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKRecordReader.swift; sourceTree = "<group>"; };
@@ -160,7 +136,6 @@
 		07DE7F1820060917003ADAF2 = {
 			isa = PBXGroup;
 			children = (
-				07DE7F7320061727003ADAF2 /* zip */,
 				07DE7F2320060918003ADAF2 /* healthconvert */,
 				07DE7F3820060918003ADAF2 /* healthconvertTests */,
 				07DE7F5720060B27003ADAF2 /* input */,
@@ -233,21 +208,6 @@
 				07DE7F72200616D5003ADAF2 /* ZIPFoundationTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		07DE7F7320061727003ADAF2 /* zip */ = {
-			isa = PBXGroup;
-			children = (
-				07DE7F8720061765003ADAF2 /* Archive.swift */,
-				07DE7F8420061765003ADAF2 /* Archive+Reading.swift */,
-				07DE7F8320061765003ADAF2 /* Archive+Writing.swift */,
-				07DE7F8220061765003ADAF2 /* Data+Compression.swift */,
-				07DE7F8520061765003ADAF2 /* Data+Serialization.swift */,
-				07DE7F8620061765003ADAF2 /* Entry.swift */,
-				07DE7F8820061765003ADAF2 /* FileManager+ZIP.swift */,
-				07DE7F9020061E43003ADAF2 /* ZipInputStream.swift */,
-			);
-			path = zip;
 			sourceTree = "<group>";
 		};
 		07DE7FAB20089E13003ADAF2 /* model */ = {
@@ -445,18 +405,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				07DE7FA320089C4E003ADAF2 /* HKRecordReader.swift in Sources */,
-				07DE7F922006600F003ADAF2 /* Archive.swift in Sources */,
-				07DE7F932006600F003ADAF2 /* Archive+Reading.swift in Sources */,
-				07DE7F942006600F003ADAF2 /* Archive+Writing.swift in Sources */,
 				07DE7FB22008A022003ADAF2 /* Version7RecordReader.swift in Sources */,
-				07DE7F952006600F003ADAF2 /* Data+Compression.swift in Sources */,
-				07DE7F962006600F003ADAF2 /* Data+Serialization.swift in Sources */,
 				07DE7FB92008A8F0003ADAF2 /* PrintRecordWriter.swift in Sources */,
 				07DE7FAF20089FCA003ADAF2 /* CSVRecordWriter.swift in Sources */,
 				07DE7FB62008A295003ADAF2 /* HKRecordReaderDelegate.swift in Sources */,
-				07DE7F972006600F003ADAF2 /* Entry.swift in Sources */,
-				07DE7F982006600F003ADAF2 /* FileManager+ZIP.swift in Sources */,
-				07DE7F992006600F003ADAF2 /* ZipInputStream.swift in Sources */,
 				07DE7FA620089DF4003ADAF2 /* HKRecordWriter.swift in Sources */,
 				07DE7F2720060918003ADAF2 /* ViewController.swift in Sources */,
 				07DE7FA920089E0E003ADAF2 /* HKRecord.swift in Sources */,
@@ -478,19 +430,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				07DE7FB020089FCA003ADAF2 /* CSVRecordWriter.swift in Sources */,
-				07DE7F8D20061765003ADAF2 /* Entry.swift in Sources */,
-				07DE7F8F20061765003ADAF2 /* FileManager+ZIP.swift in Sources */,
 				07DE7FA720089DF4003ADAF2 /* HKRecordWriter.swift in Sources */,
-				07DE7F8920061765003ADAF2 /* Data+Compression.swift in Sources */,
 				07DE7FBA2008A8F0003ADAF2 /* PrintRecordWriter.swift in Sources */,
-				07DE7F8C20061765003ADAF2 /* Data+Serialization.swift in Sources */,
-				07DE7F9120061E43003ADAF2 /* ZipInputStream.swift in Sources */,
 				07DE7FB72008A295003ADAF2 /* HKRecordReaderDelegate.swift in Sources */,
 				07DE7F9E200661F0003ADAF2 /* HKConverter.swift in Sources */,
 				07DE7F5920060B27003ADAF2 /* ActionViewController.swift in Sources */,
-				07DE7F8A20061765003ADAF2 /* Archive+Writing.swift in Sources */,
-				07DE7F8B20061765003ADAF2 /* Archive+Reading.swift in Sources */,
-				07DE7F8E20061765003ADAF2 /* Archive.swift in Sources */,
 				07DE7FA420089C4E003ADAF2 /* HKRecordReader.swift in Sources */,
 				07DE7FAA20089E0E003ADAF2 /* HKRecord.swift in Sources */,
 				07DE7FB32008A022003ADAF2 /* Version7RecordReader.swift in Sources */,
